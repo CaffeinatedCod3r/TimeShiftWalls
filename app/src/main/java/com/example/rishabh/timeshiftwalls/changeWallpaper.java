@@ -15,7 +15,7 @@ import androidx.work.Worker;
 import androidx.work.WorkerParameters;
 
 public class changeWallpaper extends Worker {
-    private static final String TAG = changeWallpaper.class.getSimpleName();
+    private static final String TAG = 'ChangeWallpaper';
 
     public changeWallpaper(Context appContext, WorkerParameters workerParams) {
         super(appContext, workerParams);
